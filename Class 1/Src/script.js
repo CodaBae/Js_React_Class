@@ -47,7 +47,7 @@ let user = {
 }
 
 // update a value in object
-user.firstName = 'shalom'
+user.firstName = 'anti'
 
 // how do we add a new value to object
 user.city = 'lagos'

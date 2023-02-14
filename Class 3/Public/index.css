@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.header_div {
+    width: 780px;
+    height: 230.58px;
+
+    background: url(../Assets/Rectangle\ 2\ \(1\).png);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+#text_container{
+    margin-right: 5%;
+    text-align: right;
+}
+
+#date_text{
+
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+margin-bottom: 0%;
+
+}
+
+#time_text{
+
+margin-top: 0%;
+font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+
+
+
+}
+
+input{
+    width: 80%;
+height: 55.93px;
+
+background: #EBEFF2;
+border-radius: 5px;
+
+/* Inside auto layout */
+border: none;
+padding-left: 2% ;
+}
+
+#add_btn{
+    width: 88px;
+height: 55.93px;
+
+background: #20EEB0;
+border-radius: 5px;
+color: #ffffff;
+border: none;
+font-size: 2rem;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#sub_container{
+    width: 50%;
+}
+#task_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#task_btn_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+#del_btn{
+    height: max-content;
+    margin-left: 15%;
+
+
+}
+
+.task_heading{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 10px;
+/* identical to box height */
+
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.task_date{
+  
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 0px;
+/* identical to box height */
+
+
+color: #888888;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
